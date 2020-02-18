@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2|Merriweather+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <title>Pokedex</title>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="http://jasonkurtanderson.me">Home</a>
+    <a class="active" href="http://pokedex.jasonkurtanderson.me">Pokedex</a>
+    <div class="search-container">
+      <form>
+        <select id="pokemonSelection" disabled>
+          <option value="">Select Pokemon</option>
+        </select>
+        <button type="submit" id="pokemonSubmit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="page">
+    <h1 id="pokemonName">Pokemon Lookup</h1>
+    <div class="page-description">
+      <p id="instructions"><em>Use the form at the top of the page to select
+          your favotire Pokemon and we will report its informaiton.</em></p>
+    </div>
+    <div class="content-container">
+
+      <div id="pokemonInfo">
+      </div>
+    </div>
+  </div>
+
+  <div class='footer'>
+    <div class='footer-item footer-one'><a href="https://github.com/JKurtAnderson/CS260/tree/master/pokemon"><img src="/images/github.png"></a></div>
+    <div class='footer-item footer-two'><img src="/images/facebook.png"></div>
+    <div class='footer-item footer-two'><img src="/images/instagram.png"></div>
+    <div class='footer-item footer-two'><img src="/images/twitter.png"></div>
+  </div>
+
+  <script src="/nav.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+</body>
+
+
+</html>
