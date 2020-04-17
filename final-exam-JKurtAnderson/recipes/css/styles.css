@@ -1,0 +1,142 @@
+/* Menu */
+.nav {
+  border-width: 1px 0;
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  width: 650px;
+}
+
+.nav li {
+  display: inline;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  font-family: 'Poppins';
+}
+
+.nav .active {
+  color: #FC6C3F;
+}
+
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+}
+
+h1 {
+  font-family: 'Shadows Into Light Two';
+  margin: 20px;
+  text-align: center;
+}
+
+.masonry img {
+  width: 100%;
+}
+
+.masonry {
+  margin: 0;
+  max-width: 100%;
+  column-gap: 0;
+  column-count: 4;
+}
+
+.item {
+  background: #fff;
+  padding: 0.5em;
+}
+
+.middle {
+  width: 90%;
+  margin: auto;
+}
+
+.middle-section {
+  display: inline-block;
+  width: 31.5%;
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.middle-section img {
+  border-radius: 25px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 110px;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.bottom {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-img {
+  display: inline-block;
+  width: 60%;
+  margin: auto;
+}
+
+.bottom-img img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.author {
+  display: inline-block;
+  width: 25%;
+  height: 400px;
+  margin: auto;
+}
+
+.author h3 {
+  width: 100%;
+  background-color: #FEE2D9;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px;
+}
+
+.author img {
+  width: 70%;
+  border-radius: 200px;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+.author h2 {
+  font-family: 'Shadows Into Light Two';
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.author p {
+  margin-bottom: 20px;
+}
